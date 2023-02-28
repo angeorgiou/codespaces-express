@@ -1,11 +1,19 @@
 {
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.2",
+    "md5": "^2.3.0",
+    "sqlite3": "^5.1.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "name": "codespaces-express",
+  "description": "Welcome to your shiny new Codespace running Express! We've got everything fired up and running for you to explore Express.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Andreas Georgiou",
+  "license": "ISC"
 }
